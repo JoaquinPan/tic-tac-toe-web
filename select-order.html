@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/circle.svg" />
-    <link rel="stylesheet" href="styles/select-mode.css" />
+    <link rel="stylesheet" href="styles/select-order.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,8 +15,12 @@
   </head>
   <body>
     <div id="app">
-      <a href="select-order.html" class="mode-option">單人模式 (1P)</a>
-      <a href="game2p.html" class="mode-option">雙人模式 (2P)</a>
+      <a href="game1p.html?player=first" class="order-option">
+        <img src="public/cross.svg" alt="" />先手
+      </a>
+      <a href="game1p.html?player=second" class="order-option">
+        <img src="public/circle.svg" alt="" />後手
+      </a>
     </div>
   </body>
 </html>

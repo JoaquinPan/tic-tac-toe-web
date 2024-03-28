@@ -1,5 +1,5 @@
 body {
-  background-color: #3A3A3A;
+  background-color: #3a3a3a;
 }
 
 #app {
@@ -16,8 +16,10 @@ body {
   gap: 46px;
 }
 
-.mode-option {
-  display: inline;
+.button {
+  display: flex;
+  align-items: center;
+  gap: 13px;
   color: white;
   font-size: 36px;
   font-style: normal;
@@ -25,7 +27,24 @@ body {
   line-height: normal;
   text-decoration: none;
   border-radius: 10px;
-  border: 2px solid white;
-  padding: 8px 20px;
+  border: 2px solid #fff;
+  padding: 15px 20px;
   font-family: "Noto Sans TC", sans-serif;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 23px;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.result img {
+  width: 48px;
+  height: 48px;
 }
