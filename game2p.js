@@ -7,7 +7,7 @@ import {
   findLine,
   getInitialPlayerIdx,
   getNextPlayerIdx,
-  updateGame
+  updateGame,
 } from "./lib/game/core";
 import { drawGreenLine, drawGrid, placeMark } from "./lib/game/render";
 import circle from "/circle.svg";
@@ -15,7 +15,7 @@ import cross from "/cross.svg";
 
 const players = [
   { char: P1, svg: cross },
-  { char: P2, svg: circle }
+  { char: P2, svg: circle },
 ];
 let board = createEmptyBoard();
 let currentPlayerIdx = getInitialPlayerIdx();
